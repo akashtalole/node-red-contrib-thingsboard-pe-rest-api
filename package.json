@@ -1,0 +1,39 @@
+{
+  "name": "node-red-contrib-thingsboard-pe-rest-api",
+  "version": "3.3.3",
+  "description": "Node-RED node for thingsboard-pe-rest-api",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api.git"
+  },
+  "node-red": {
+    "nodes": {
+      "thingsboard-pe-rest-api": "node.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "thingsboard",
+    "api"
+  ],
+  "dependencies": {
+    "q": "1.5.1",
+    "request": "2.88.2",
+    "file-type": "12.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "node-red": "^1.0.4",
+    "node-red-node-test-helper": "^0.2.3"
+  },
+  "author": "Akash Talole",
+  "license": "Apache License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api/issues"
+  },
+  "homepage": "https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api#readme"
+}
